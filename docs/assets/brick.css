@@ -28,7 +28,9 @@ $color5: rgba(162, 37, 34, 1);
 -include normalize, remove repeating attributes
 */
 
-
+*{
+  -webkit-appearance: none;
+}
 /* Grid */
 
 .container {
