@@ -19,6 +19,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/docs\/assets\/brick-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/docs\/assets\/brick-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/docs\/assets\/brick.css": {
 		"aP": 1,
 		"bl": 0,
@@ -29,21 +39,21 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/docs\/assets\/normalize.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/docs\/assets\/normalize-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/docs\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/docs\/index.html",
 		"oF": 0
+		},
+	"\/palette.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/palette-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/palette.scss": {
 		"aP": 0,

@@ -13,18 +13,18 @@
 
 <body>
     <div class="container">
-        <section class="header">
-            <h2 class="title">There's an easier way to build.</h2>
-            <a class="button primary" href="https://github.com/brikky/brick">Download</a>
+        <section>
+            <h2 class="center">There's an easier way to build.</h2>
+            <a class="button primary center four columns push-four" href="https://github.com/brikky/brick">Download</a>
             <hr>
             <div class="row">
-                <div class="four columns">
+                <div class="four columns center">
                     <h4>Deceptively Light</h4>
                 </div>
-                <div class="four columns">
+                <div class="four columns center">
                     <h4>Unintrusive</h4>
                 </div>
-                <div class="four columns">
+                <div class="four columns center">
                     <h4>No Compiling Required</h4>
                 </div>
             </div>
@@ -32,17 +32,17 @@
 
         <!-- Use It -->
         <hr>
-        <div class="docs-section" id="intro">
-            <h6 class="docs-header">Designed for You</h6>
+        <div>
+            <h5>Designed for You</h5>
             <p>Brick is a foundational CSS framework designed to stay out of the way while applying base styles to keep your site looking modern. Customize as needed, or build directly onto the source code.</p>
         </div>
 
         <!-- Grid Section -->
         <hr>
-        <div class="docs-section" id="grid">
-            <h6 class="docs-header">Columns</h6>
+        <div>
+            <h5>Columns</h5>
             <p>Brick utilizes a standard 12-column layout which allows for easily building complex layouts. The columns are designed to be mobile responsive from phablet to desktop and beyond!</p>
-            <div class="example-grid docs-example">
+            <div>
                 <div class="row">
                     <div style="background-color: rgba(202, 219, 192, 1); margin: 5px 0; border-radius: 10px; text-align: center;" class="one column">One</div>
                     <div style="background-color: rgba(163, 53, 51, 1); margin: 5px 0; border-radius: 10px; text-align: center;" class="eleven columns">Eleven</div>
@@ -72,10 +72,10 @@
 
         <!-- Typography -->
         <hr>
-        <div class="docs-section" id="typography">
-            <h6 class="docs-header">Typography</h6>
+        <div>
+            <h5>Typography</h5>
             <p>All typography is sized using rem units, where the default ratio is 1rem = 10px. Easily scale your text by changing the font-size of the HTML element.</p>
-            <div class="docs-example">
+            <div>
                 <div class="row">
                     <div class="six columns">
                         <p>The default font set is web-safe, and includes typical assets such as <a href="#">anchors</a>, <strong>strong</strong>, <em>emphasis</em>, and <u>underline</u>.
@@ -95,11 +95,11 @@
         <hr>
 
         <!-- Buttons -->
-        <div class="docs-section" id="buttons">
-            <h6 class="docs-header">Buttons</h6>
+        <div>
+            <h5>Buttons</h5>
             <p>There are two default button stylings for Brick, <code>&lt;button&gt;</code> elements are plain, and <code>.primary</code> is brighter for increased visibility. Button classes can also be used on anchor and certain other tags to quickly add
                 styling changes.</p>
-            <div class="docs-example">
+            <div>
                 <div>
                     <a class="button" href="#">Anchor button</a>
                     <button>Button</button>
@@ -117,28 +117,32 @@
 
         <!-- Forms -->
         <hr>
-        <div class="docs-section" id="forms">
-            <h6 class="docs-header">Forms</h6>
+        <div>
+            <h5>Forms</h5>
             <p>Froms have been standardized across browser to make sure that inputs can be stacked vertically or laid horizontally and still line up correctly.</p>
-            <div class="docs-example docs-example-forms">
+            <div>
                 <form>
                     <div class="row">
                         <div class="six columns">
-                            <label for="exampleEmailInput">Your email</label>
-                            <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+                            <label for="email">Your email</label>
+                            <input type="email" placeholder="brick@css.com" id="email">
                         </div>
-                        <div class="six columns">
-                            <label for="exampleRecipientInput">Reason for contacting</label>
-                            <select class="u-full-width" id="exampleRecipientInput">
+                        <div class="four push-two columns ">
+                            <label for="selection">Reason for contacting</label>
+                            <select id="selection">
                 <option value="Option 1">Question</option>
                 <option value="Option 2">Comment</option>
                 <option value="Option 3">Concern</option>
               </select>
                         </div>
                     </div>
-                    <label for="exampleMessage">Message</label>
-                    <textarea class="u-full-width" placeholder="Let's lay some bricks!" id="exampleMessage"></textarea>
-                    <input class="primary" type="submit" value="Submit">
+                    <div class="row">
+                        <div class="six columns">
+                            <label for="textArea">Message</label>
+                            <textarea placeholder="Let's lay some bricks!" id="textArea"></textarea>
+                        </div>
+                    </div>
+                    <div class="row center"><input class="primary" type="submit" value="Submit"></div>
                 </form>
             </div>
             </pre>
@@ -146,9 +150,9 @@
 
         <!-- Lists -->
         <hr>
-        <div class="docs-section" id="lists">
-            <h6 class="docs-header">Lists</h6>
-            <div class="row docs-example">
+        <div>
+            <h5>Lists</h5>
+            <div class="row">
                 <div class="six columns">
                     <ul>
                         <li>Unordered Lists</li>
@@ -176,23 +180,26 @@
 
         <!-- Code -->
         <hr>
-        <div class="docs-section" id="code">
-            <h6 class="docs-header">Code</h6>
-            <p>Simplified styling for <code>&lt;code&gt;</code>. For blocks of code, use a `pre` tag to nest the `code` tag. </p>
-            <div class="docs-example">
-                <pre><code>.red {
+        <div>
+            <h5>Code</h5>
+            <p>Styles for <code>&lt;code&gt;</code>. For blocks of code, use a `pre` tag to nest the `code` tag. </p>
+            <div>
+                <pre>
+                  <code>.red {
   background-color: rgb(255, 0, 0);
-}</code></pre>
+}
+                  </code>
+                </pre>
             </div>
         </div>
 
         <!-- Tables -->
         <hr>
-        <div class="docs-section" id="tables">
-            <h6 class="docs-header">Tables</h6>
+        <div>
+            <h5>Tables</h5>
             <p>Be sure to use properly formed table markup with <code>&lt;thead&gt;</code> and <code>&lt;tbody&gt;</code> when building a <code>table</code>.</p>
-            <div class="docs-example">
-                <table class="u-full-width">
+            <div>
+                <table>
                     <thead>
                         <tr>
                             <th>Name</th>
