@@ -25,6 +25,7 @@ $color5: rgba(162, 37, 34, 1);
 -check sizing
 -include normalize, remove repeating attributes
 */
+/*normalize*/
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
